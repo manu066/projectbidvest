@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Listner]]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.bidvest.genericutility.ListenerImpleclass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.Buildvest.Customer.FirsttestNg">
+        <methods>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="addBenificiaryYourselfTest"/>
+        </methods>
+      </class> <!-- com.Buildvest.Customer.FirsttestNg -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Listner]] -->
