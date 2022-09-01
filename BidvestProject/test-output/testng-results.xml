@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results skipped="8" failed="0" ignored="0" total="8" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-23T14:44:44 IST" name="Batch" finished-at="2022-08-23T14:45:38 IST" duration-ms="53983">
+  <suite name="Browser" duration-ms="85304" started-at="2022-08-31T00:16:42 IST" finished-at="2022-08-31T00:18:07 IST">
     <groups>
       <group name="regression">
-        <method signature="FirsttestNg.ChangePasswordAndLoginWithNewPassword()[pri:4, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" name="ChangePasswordAndLoginWithNewPassword" class="com.Buildvest.Customer.FirsttestNg"/>
-        <method signature="FirsttestNg.ToVerifyCustomerAddBeneficiarythengotoFundTransferPageLogoutApplicationTest()[pri:2, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" name="ToVerifyCustomerAddBeneficiarythengotoFundTransferPageLogoutApplicationTest" class="com.Buildvest.Customer.FirsttestNg"/>
-        <method signature="FirsttestNg.ViewBenificiaryAferAddingBenificiaryTest()[pri:3, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" name="ViewBenificiaryAferAddingBenificiaryTest" class="com.Buildvest.Customer.FirsttestNg"/>
-        <method signature="FirsttestNg.addBenificiaryYourselfTest()[pri:1, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" name="addBenificiaryYourselfTest" class="com.Buildvest.Customer.FirsttestNg"/>
+        <method signature="FirsttestNg.ChangePasswordAndLoginWithNewPassword()[pri:4, instance:com.Buildvest.Customer.FirsttestNg@77f99a05]" name="ChangePasswordAndLoginWithNewPassword" class="com.Buildvest.Customer.FirsttestNg"/>
+        <method signature="FirsttestNg.ToVerifyCustomerAddBeneficiarythengotoFundTransferPageLogoutApplicationTest()[pri:2, instance:com.Buildvest.Customer.FirsttestNg@77f99a05]" name="ToVerifyCustomerAddBeneficiarythengotoFundTransferPageLogoutApplicationTest" class="com.Buildvest.Customer.FirsttestNg"/>
+        <method signature="FirsttestNg.ViewBenificiaryAferAddingBenificiaryTest()[pri:3, instance:com.Buildvest.Customer.FirsttestNg@77f99a05]" name="ViewBenificiaryAferAddingBenificiaryTest" class="com.Buildvest.Customer.FirsttestNg"/>
+        <method signature="FirsttestNg.addBenificiaryYourselfTest()[pri:1, instance:com.Buildvest.Customer.FirsttestNg@77f99a05]" name="addBenificiaryYourselfTest" class="com.Buildvest.Customer.FirsttestNg"/>
+        <method signature="FirsttestNg.ChangePasswordAndLoginWithNewPassword()[pri:4, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="ChangePasswordAndLoginWithNewPassword" class="com.Buildvest.Customer.FirsttestNg"/>
+        <method signature="FirsttestNg.ToVerifyCustomerAddBeneficiarythengotoFundTransferPageLogoutApplicationTest()[pri:2, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="ToVerifyCustomerAddBeneficiarythengotoFundTransferPageLogoutApplicationTest" class="com.Buildvest.Customer.FirsttestNg"/>
+        <method signature="FirsttestNg.ViewBenificiaryAferAddingBenificiaryTest()[pri:3, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="ViewBenificiaryAferAddingBenificiaryTest" class="com.Buildvest.Customer.FirsttestNg"/>
+        <method signature="FirsttestNg.addBenificiaryYourselfTest()[pri:1, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="addBenificiaryYourselfTest" class="com.Buildvest.Customer.FirsttestNg"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2022-08-23T14:44:44 IST" name="Test" finished-at="2022-08-23T14:45:38 IST" duration-ms="53983">
+    <test name="TestRuuner1" duration-ms="27596" started-at="2022-08-31T00:16:42 IST" finished-at="2022-08-31T00:17:09 IST">
       <class name="com.Buildvest.Customer.FirsttestNg">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" started-at="2022-08-23T14:44:44 IST" name="configBS" finished-at="2022-08-23T14:44:44 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" started-at="2022-08-23T14:45:12 IST" name="configBC" finished-at="2022-08-23T14:45:19 IST" duration-ms="7711" status="PASS">
+        <test-method status="FAIL" signature="configBC(java.lang.String)[pri:0, instance:com.Buildvest.Customer.FirsttestNg@77f99a05]" name="configBC" is-config="true" duration-ms="26986" started-at="2022-08-31T00:16:42 IST" finished-at="2022-08-31T00:17:09 IST">
           <params>
             <param index="0">
               <value>
@@ -25,135 +25,672 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" started-at="2022-08-23T14:45:19 IST" name="configBM" finished-at="2022-08-23T14:45:21 IST" duration-ms="2017" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="addBenificiaryYourselfTest()[pri:1, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" started-at="2022-08-23T14:45:21 IST" name="addBenificiaryYourselfTest" finished-at="2022-08-23T14:45:25 IST" duration-ms="3369" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addBenificiaryYourselfTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" started-at="2022-08-23T14:45:25 IST" name="configAM" finished-at="2022-08-23T14:45:25 IST" duration-ms="470" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" started-at="2022-08-23T14:45:25 IST" name="configBM" finished-at="2022-08-23T14:45:26 IST" duration-ms="962" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="ToVerifyCustomerAddBeneficiarythengotoFundTransferPageLogoutApplicationTest()[pri:2, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" started-at="2022-08-23T14:45:26 IST" name="ToVerifyCustomerAddBeneficiarythengotoFundTransferPageLogoutApplicationTest" finished-at="2022-08-23T14:45:30 IST" duration-ms="3394" status="FAIL">
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[we fail testcase 3]]>
+              <![CDATA[Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: we fail testcase 3
-at org.testng.Assert.fail(Assert.java:99)
-at com.Buildvest.Customer.FirsttestNg.ToVerifyCustomerAddBeneficiarythengotoFundTransferPageLogoutApplicationTest(FirsttestNg.java:147)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at com.bidvest.genericutility.BaseClass.configBC(BaseClass.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:2747/status] to be available after 20002 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
+... 30 more
+Caused by: java.util.concurrent.TimeoutException
+at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+... 31 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="SKIP" signature="configBM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@77f99a05]" name="configBM" is-config="true" duration-ms="-1661885229647" started-at="2022-08-31T00:17:09 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="SKIP" signature="addBenificiaryYourselfTest()[pri:1, instance:com.Buildvest.Customer.FirsttestNg@77f99a05]" name="addBenificiaryYourselfTest" duration-ms="0" started-at="2022-08-31T00:17:09 IST" finished-at="2022-08-31T00:17:09 IST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at com.bidvest.genericutility.BaseClass.configBC(BaseClass.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:2747/status] to be available after 20002 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
+... 30 more
+Caused by: java.util.concurrent.TimeoutException
+at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBenificiaryYourselfTest -->
+        <test-method status="SKIP" signature="configAM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@77f99a05]" name="configAM" is-config="true" duration-ms="-1661885229862" started-at="2022-08-31T00:17:09 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="SKIP" signature="configBM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@77f99a05]" name="configBM" is-config="true" duration-ms="-1661885229879" started-at="2022-08-31T00:17:09 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="SKIP" signature="ToVerifyCustomerAddBeneficiarythengotoFundTransferPageLogoutApplicationTest()[pri:2, instance:com.Buildvest.Customer.FirsttestNg@77f99a05]" name="ToVerifyCustomerAddBeneficiarythengotoFundTransferPageLogoutApplicationTest" duration-ms="0" started-at="2022-08-31T00:17:09 IST" finished-at="2022-08-31T00:17:09 IST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at com.bidvest.genericutility.BaseClass.configBC(BaseClass.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:2747/status] to be available after 20002 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
+... 30 more
+Caused by: java.util.concurrent.TimeoutException
+at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ToVerifyCustomerAddBeneficiarythengotoFundTransferPageLogoutApplicationTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" started-at="2022-08-23T14:45:30 IST" name="configAM" finished-at="2022-08-23T14:45:30 IST" duration-ms="469" status="PASS">
+        <test-method status="SKIP" signature="configAM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@77f99a05]" name="configAM" is-config="true" duration-ms="-1661885229897" started-at="2022-08-31T00:17:09 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" started-at="2022-08-23T14:45:30 IST" name="configBM" finished-at="2022-08-23T14:45:31 IST" duration-ms="1023" status="PASS">
+        <test-method status="SKIP" signature="configBM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@77f99a05]" name="configBM" is-config="true" duration-ms="-1661885229901" started-at="2022-08-31T00:17:09 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="ViewBenificiaryAferAddingBenificiaryTest()[pri:3, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" started-at="2022-08-23T14:45:31 IST" name="ViewBenificiaryAferAddingBenificiaryTest" finished-at="2022-08-23T14:45:34 IST" duration-ms="2305" status="PASS">
+        <test-method status="SKIP" signature="ViewBenificiaryAferAddingBenificiaryTest()[pri:3, instance:com.Buildvest.Customer.FirsttestNg@77f99a05]" name="ViewBenificiaryAferAddingBenificiaryTest" duration-ms="0" started-at="2022-08-31T00:17:09 IST" finished-at="2022-08-31T00:17:09 IST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at com.bidvest.genericutility.BaseClass.configBC(BaseClass.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:2747/status] to be available after 20002 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
+... 30 more
+Caused by: java.util.concurrent.TimeoutException
+at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ViewBenificiaryAferAddingBenificiaryTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" started-at="2022-08-23T14:45:34 IST" name="configAM" finished-at="2022-08-23T14:45:34 IST" duration-ms="406" status="PASS">
+        <test-method status="SKIP" signature="configAM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@77f99a05]" name="configAM" is-config="true" duration-ms="-1661885229923" started-at="2022-08-31T00:17:09 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" started-at="2022-08-23T14:45:34 IST" name="configBM" finished-at="2022-08-23T14:45:35 IST" duration-ms="1147" status="PASS">
+        <test-method status="SKIP" signature="configBM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@77f99a05]" name="configBM" is-config="true" duration-ms="-1661885229939" started-at="2022-08-31T00:17:09 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="ChangePasswordAndLoginWithNewPassword()[pri:4, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" started-at="2022-08-23T14:45:35 IST" name="ChangePasswordAndLoginWithNewPassword" finished-at="2022-08-23T14:45:37 IST" duration-ms="1856" status="PASS">
+        <test-method status="SKIP" signature="ChangePasswordAndLoginWithNewPassword()[pri:4, instance:com.Buildvest.Customer.FirsttestNg@77f99a05]" name="ChangePasswordAndLoginWithNewPassword" duration-ms="0" started-at="2022-08-31T00:17:09 IST" finished-at="2022-08-31T00:17:09 IST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at com.bidvest.genericutility.BaseClass.configBC(BaseClass.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:2747/status] to be available after 20002 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
+... 30 more
+Caused by: java.util.concurrent.TimeoutException
+at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChangePasswordAndLoginWithNewPassword -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" started-at="2022-08-23T14:45:37 IST" name="configAM" finished-at="2022-08-23T14:45:38 IST" duration-ms="409" status="PASS">
+        <test-method status="SKIP" signature="configAM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@77f99a05]" name="configAM" is-config="true" duration-ms="-1661885229951" started-at="2022-08-31T00:17:09 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" started-at="2022-08-23T14:45:38 IST" name="configAC" finished-at="2022-08-23T14:45:38 IST" duration-ms="264" status="PASS">
+        <test-method status="SKIP" signature="configAC()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@77f99a05]" name="configAC" is-config="true" duration-ms="-1661885229955" started-at="2022-08-31T00:17:09 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@5b03b9fe]" started-at="2022-08-23T14:45:38 IST" name="configAS" finished-at="2022-08-23T14:45:38 IST" duration-ms="1" status="PASS">
+      </class> <!-- com.Buildvest.Customer.FirsttestNg -->
+    </test> <!-- TestRuuner1 -->
+    <test name="TestRunner2" duration-ms="85304" started-at="2022-08-31T00:16:42 IST" finished-at="2022-08-31T00:18:07 IST">
+      <class name="com.Buildvest.Customer.FirsttestNg">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="configBS" is-config="true" duration-ms="15" started-at="2022-08-31T00:16:42 IST" finished-at="2022-08-31T00:16:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="FAIL" signature="configBC(java.lang.String)[pri:0, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="configBC" is-config="true" duration-ms="85022" started-at="2022-08-31T00:16:42 IST" finished-at="2022-08-31T00:18:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Reached error page: about:neterror?e=netTimeout&u=http%3A//192.168.0.190/domain/Online_Banking_System&c=UTF-8&d=The%20server%20at%20192.168.0.190%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220818191623, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9356, moz:profile: C:\Users\Manu\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d9cda9d8-15e8-487c-bf0f-962114de66cd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//192.168.0.190/domain/Online_Banking_System&c=UTF-8&d=The%20server%20at%20192.168.0.190%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220818191623, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9356, moz:profile: C:\Users\Manu\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d9cda9d8-15e8-487c-bf0f-962114de66cd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.bidvest.genericutility.BaseClass.configBC(BaseClass.java:72)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="SKIP" signature="configBM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="configBM" is-config="true" duration-ms="-1661885287433" started-at="2022-08-31T00:18:07 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="SKIP" signature="addBenificiaryYourselfTest()[pri:1, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="addBenificiaryYourselfTest" duration-ms="0" started-at="2022-08-31T00:18:07 IST" finished-at="2022-08-31T00:18:07 IST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Reached error page: about:neterror?e=netTimeout&u=http%3A//192.168.0.190/domain/Online_Banking_System&c=UTF-8&d=The%20server%20at%20192.168.0.190%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220818191623, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9356, moz:profile: C:\Users\Manu\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d9cda9d8-15e8-487c-bf0f-962114de66cd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//192.168.0.190/domain/Online_Banking_System&c=UTF-8&d=The%20server%20at%20192.168.0.190%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220818191623, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9356, moz:profile: C:\Users\Manu\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d9cda9d8-15e8-487c-bf0f-962114de66cd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.bidvest.genericutility.BaseClass.configBC(BaseClass.java:72)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBenificiaryYourselfTest -->
+        <test-method status="SKIP" signature="configAM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="configAM" is-config="true" duration-ms="-1661885287443" started-at="2022-08-31T00:18:07 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="SKIP" signature="configBM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="configBM" is-config="true" duration-ms="-1661885287461" started-at="2022-08-31T00:18:07 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="SKIP" signature="ToVerifyCustomerAddBeneficiarythengotoFundTransferPageLogoutApplicationTest()[pri:2, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="ToVerifyCustomerAddBeneficiarythengotoFundTransferPageLogoutApplicationTest" duration-ms="0" started-at="2022-08-31T00:18:07 IST" finished-at="2022-08-31T00:18:07 IST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Reached error page: about:neterror?e=netTimeout&u=http%3A//192.168.0.190/domain/Online_Banking_System&c=UTF-8&d=The%20server%20at%20192.168.0.190%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220818191623, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9356, moz:profile: C:\Users\Manu\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d9cda9d8-15e8-487c-bf0f-962114de66cd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//192.168.0.190/domain/Online_Banking_System&c=UTF-8&d=The%20server%20at%20192.168.0.190%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220818191623, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9356, moz:profile: C:\Users\Manu\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d9cda9d8-15e8-487c-bf0f-962114de66cd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.bidvest.genericutility.BaseClass.configBC(BaseClass.java:72)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToVerifyCustomerAddBeneficiarythengotoFundTransferPageLogoutApplicationTest -->
+        <test-method status="SKIP" signature="configAM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="configAM" is-config="true" duration-ms="-1661885287474" started-at="2022-08-31T00:18:07 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="SKIP" signature="configBM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="configBM" is-config="true" duration-ms="-1661885287483" started-at="2022-08-31T00:18:07 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="SKIP" signature="ViewBenificiaryAferAddingBenificiaryTest()[pri:3, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="ViewBenificiaryAferAddingBenificiaryTest" duration-ms="0" started-at="2022-08-31T00:18:07 IST" finished-at="2022-08-31T00:18:07 IST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Reached error page: about:neterror?e=netTimeout&u=http%3A//192.168.0.190/domain/Online_Banking_System&c=UTF-8&d=The%20server%20at%20192.168.0.190%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220818191623, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9356, moz:profile: C:\Users\Manu\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d9cda9d8-15e8-487c-bf0f-962114de66cd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//192.168.0.190/domain/Online_Banking_System&c=UTF-8&d=The%20server%20at%20192.168.0.190%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220818191623, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9356, moz:profile: C:\Users\Manu\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d9cda9d8-15e8-487c-bf0f-962114de66cd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.bidvest.genericutility.BaseClass.configBC(BaseClass.java:72)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewBenificiaryAferAddingBenificiaryTest -->
+        <test-method status="SKIP" signature="configAM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="configAM" is-config="true" duration-ms="-1661885287497" started-at="2022-08-31T00:18:07 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="SKIP" signature="configBM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="configBM" is-config="true" duration-ms="-1661885287528" started-at="2022-08-31T00:18:07 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="SKIP" signature="ChangePasswordAndLoginWithNewPassword()[pri:4, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="ChangePasswordAndLoginWithNewPassword" duration-ms="0" started-at="2022-08-31T00:18:07 IST" finished-at="2022-08-31T00:18:07 IST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Reached error page: about:neterror?e=netTimeout&u=http%3A//192.168.0.190/domain/Online_Banking_System&c=UTF-8&d=The%20server%20at%20192.168.0.190%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220818191623, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9356, moz:profile: C:\Users\Manu\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d9cda9d8-15e8-487c-bf0f-962114de66cd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//192.168.0.190/domain/Online_Banking_System&c=UTF-8&d=The%20server%20at%20192.168.0.190%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANU', ip: '192.168.43.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220818191623, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9356, moz:profile: C:\Users\Manu\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d9cda9d8-15e8-487c-bf0f-962114de66cd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.bidvest.genericutility.BaseClass.configBC(BaseClass.java:72)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePasswordAndLoginWithNewPassword -->
+        <test-method status="SKIP" signature="configAM()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="configAM" is-config="true" duration-ms="-1661885287633" started-at="2022-08-31T00:18:07 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="SKIP" signature="configAC()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="configAC" is-config="true" duration-ms="-1661885287641" started-at="2022-08-31T00:18:07 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.Buildvest.Customer.FirsttestNg@289d1c02]" name="configAS" is-config="true" duration-ms="1" started-at="2022-08-31T00:18:07 IST" finished-at="2022-08-31T00:18:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
       </class> <!-- com.Buildvest.Customer.FirsttestNg -->
-      <class name="com.Buildvest.Staff.StaffTestng">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.Buildvest.Staff.StaffTestng@342c38f8]" started-at="2022-08-23T14:44:44 IST" name="configBS" finished-at="2022-08-23T14:44:44 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.Buildvest.Staff.StaffTestng@342c38f8]" started-at="2022-08-23T14:44:44 IST" name="configBC" finished-at="2022-08-23T14:44:58 IST" duration-ms="13834" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.Buildvest.Staff.StaffTestng@342c38f8]" started-at="2022-08-23T14:44:58 IST" name="configBM" finished-at="2022-08-23T14:45:02 IST" duration-ms="4057" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="verifyAccountInApprovePendingAccountTest()[pri:0, instance:com.Buildvest.Staff.StaffTestng@342c38f8]" started-at="2022-08-23T14:45:02 IST" name="verifyAccountInApprovePendingAccountTest" finished-at="2022-08-23T14:45:10 IST" duration-ms="7989" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAccountInApprovePendingAccountTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.Buildvest.Staff.StaffTestng@342c38f8]" started-at="2022-08-23T14:45:10 IST" name="configAM" finished-at="2022-08-23T14:45:11 IST" duration-ms="759" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.Buildvest.Staff.StaffTestng@342c38f8]" started-at="2022-08-23T14:45:11 IST" name="configAC" finished-at="2022-08-23T14:45:12 IST" duration-ms="1074" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="conifAS()[pri:0, instance:com.Buildvest.Staff.StaffTestng@342c38f8]" started-at="2022-08-23T14:45:38 IST" name="conifAS" finished-at="2022-08-23T14:45:38 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- conifAS -->
-      </class> <!-- com.Buildvest.Staff.StaffTestng -->
-    </test> <!-- Test -->
-  </suite> <!-- Batch -->
+    </test> <!-- TestRunner2 -->
+  </suite> <!-- Browser -->
 </testng-results>

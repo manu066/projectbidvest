@@ -15,6 +15,7 @@ import org.testng.asserts.SoftAssert;
 
 import com.beust.jcommander.Parameter;
 import com.bidvest.genericutility.BaseClass;
+import com.bidvest.genericutility.ReTryImpclass;
 import com.bidvestUtility.pomrepositylib.AddBeneficiaryPage;
 import com.bidvestUtility.pomrepositylib.ChangePassword;
 import com.bidvestUtility.pomrepositylib.CustomerLogin;
@@ -28,7 +29,7 @@ import com.bidvestUtility.pomrepositylib.ViewBeneficiary;
 @Listeners(com.bidvest.genericutility.ListenerImpleclass.class)
 public class FirsttestNg extends BaseClass {
 
-	@Test(priority = 1,groups = "regression",retryAnalyzer =com.bidvest.genericutility.ReTryImpclass.class )
+	@Test(priority = 1,groups = "regression",retryAnalyzer =ReTryImpclass.class )
 	public void addBenificiaryYourselfTest() throws Throwable {
 
 		// step2:Read Data From Excel Sheet
